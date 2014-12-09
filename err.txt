@@ -1,0 +1,11 @@
+running build
+running build_py
+copying fbpy/fb.py -> build/lib.linux-x86_64-2.7/fbpy
+running build_ext
+running install
+running install_lib
+copying build/lib.linux-x86_64-2.7/fbpy/fb.py -> /usr/local/lib/python2.7/dist-packages/fbpy
+byte-compiling /usr/local/lib/python2.7/dist-packages/fbpy/fb.py to fb.pyc
+running install_egg_info
+Removing /usr/local/lib/python2.7/dist-packages/fbpy-0.1.egg-info
+Writing /usr/local/lib/python2.7/dist-packages/fbpy-0.1.egg-info

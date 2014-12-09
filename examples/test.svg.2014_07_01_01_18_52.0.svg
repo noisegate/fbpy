@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="200"
+   height="200"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="ink_ext_XXXXXX.svgCTFTIX">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview2990"
+     showgrid="false"
+     inkscape:zoom="3.1817808"
+     inkscape:cx="13.644322"
+     inkscape:cy="112.73549"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       fuse_tolerance="-0.4"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="M 0,0 1,0"
+       is_visible="true"
+       id="path-effect4018"
+       effect="skeletal" />
+    <inkscape:path-effect
+       vertical="false"
+       scale_y_rel="false"
+       prop_scale="1"
+       bendpath="m 114.26521,110.30179 48.60997,0"
+       is_visible="true"
+       id="path-effect4014"
+       effect="bend_path" />
+    <inkscape:path-effect
+       bendpath4="m 114.26521,34.476981 0,151.649609"
+       bendpath3="m 114.26521,186.12659 48.60997,0"
+       bendpath2="m 162.87518,34.476981 0,151.649609"
+       bendpath1="m 114.26521,34.476981 48.60997,0"
+       xx="false"
+       yy="false"
+       is_visible="true"
+       id="path-effect4012"
+       effect="envelope" />
+    <inkscape:perspective
+       id="perspective3020"
+       inkscape:persp3d-origin="100 : 66.666667 : 1"
+       inkscape:vp_z="200 : 100 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 100 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     inkscape:connector-curvature="0"
+     id="path3775"
+     d="M134.48438 147.91372L101.50838 147.91372L91.140378 144.24172L80.772378 118.53772L93.588378 93.841722L106.40438 90.313722L111.88703 90.313722L134.84438 90.313722L131.53238 96.289722L104.60438 96.289722L96.180378 99.025722L87.684378 118.32172L95.172378 138.91372L102.73238 141.86572L127.42838 141.86572L127.42838 117.96172L105.82838 117.96172L105.82838 111.91372L134.48438 111.91372L134.48438 147.91372"
+     style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-opacity:1;font-family:Battlestar;-inkscape-font-specification:Battlestar" />
+  <path
+     id="path3002"
+     d="m 93.813148,87.409102 -22.896,0 c -2.544019,-0.287992 -4.728017,-1.199991 -6.552,-2.736 -4.416011,-3.647986 -6.624009,-10.007979 -6.624,-19.08 -9e-6,-8.495962 2.687989,-14.447956 8.064,-17.856 2.255981,-1.391951 4.943978,-2.23195 8.064,-2.52 l 25.200002,0 -3.672002,6.192 -20.088,0 c -2.112024,0.192044 -3.936022,0.792043 -5.472,1.8 -3.648017,2.35204 -5.472015,6.480036 -5.472,12.384 -1.5e-5,6.576023 1.583983,11.184019 4.752,13.824 1.343979,1.056015 2.927977,1.704014 4.752,1.944 l 13.104,0 0,-8.712 -12.888,0 0,-5.832 19.728,0 0,20.592"
+     style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-opacity:1;font-family:Battlestar;-inkscape-font-specification:Battlestar" />
+</svg>

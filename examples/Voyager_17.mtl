@@ -1,0 +1,72 @@
+# Blender MTL File: 'Voyager_17.blend'
+# Material Count: 7
+
+newmtl tex_01
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/Voyager_tex_01.psd
+
+newmtl tex_01_NONE
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/texture/Voyager_tex_01.psd
+
+newmtl tex_01_Voyager_tex_01.ps.002
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/Voyager_tex_01.psd
+
+newmtl tex_01_Voyager_tex_01.ps.003
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.250000 0.250000 0.250000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/Voyager_tex_01.psd
+
+newmtl tex_02_AO
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/tex_02_AO.png
+
+newmtl tex_02_AO_dark
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.122570 0.122570 0.122570
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/tex_02_AO.png
+
+newmtl tex_02_AO_dark_NONE
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.122570 0.122570 0.122570
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/marcell/Downloads/Voyager 1&2/texture/tex_02_AO.png

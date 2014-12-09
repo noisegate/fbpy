@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="186.71875"
+   height="194.28125"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-25.71875,-17.59375)"
+     id="layer1">
+    <text
+       x="20.114702"
+       y="92.098564"
+       transform="translate(25.71875,17.59375)"
+       id="text5393"
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+         x="20.114702"
+         y="92.098564"
+         id="tspan5395" /></text>
+    <text
+       x="16.494055"
+       y="93.707741"
+       transform="translate(25.71875,17.59375)"
+       id="text5397"
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"><tspan
+         x="16.494055"
+         y="93.707741"
+         id="tspan5399" /></text>
+    <g
+       transform="translate(25.71875,17.59375)"
+       id="text5401"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial">
+      <g
+         id="text5448"
+         style="fill:none;stroke:#000000;stroke-opacity:1;font-family:Battlestar;-inkscape-font-specification:Battlestar">
+        <path
+           d="m 5,24.28125 20,-20 c 41.666667,0 4.711096,0 120,0 l 20,20 0,45 -15,10 15,10 0,65 -20,20 -120,0 -20,-20 0,-65 15,-10 -15,-10 z"
+           id="path6327"
+           style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+  </g>
+</svg>

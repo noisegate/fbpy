@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="200"
+   height="200"
+   id="svg2"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="ink_ext_XXXXXX.svgDBLLIX">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     id="namedview2990"
+     showgrid="false"
+     inkscape:zoom="3.9654706"
+     inkscape:cx="37.248885"
+     inkscape:cy="114.52433"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs4">
+    <inkscape:path-effect
+       fuse_tolerance="-0.4"
+       vertical_pattern="false"
+       prop_units="false"
+       tang_offset="0"
+       normal_offset="0"
+       spacing="0"
+       scale_y_rel="false"
+       prop_scale="1"
+       copytype="single_stretched"
+       pattern="M 0,0 1,0"
+       is_visible="true"
+       id="path-effect4018"
+       effect="skeletal" />
+    <inkscape:path-effect
+       vertical="false"
+       scale_y_rel="false"
+       prop_scale="1"
+       bendpath="m 114.26521,110.30179 48.60997,0"
+       is_visible="true"
+       id="path-effect4014"
+       effect="bend_path" />
+    <inkscape:path-effect
+       bendpath4="m 114.26521,34.476981 0,151.649609"
+       bendpath3="m 114.26521,186.12659 48.60997,0"
+       bendpath2="m 162.87518,34.476981 0,151.649609"
+       bendpath1="m 114.26521,34.476981 48.60997,0"
+       xx="false"
+       yy="false"
+       is_visible="true"
+       id="path-effect4012"
+       effect="envelope" />
+    <inkscape:perspective
+       id="perspective3020"
+       inkscape:persp3d-origin="100 : 66.666667 : 1"
+       inkscape:vp_z="200 : 100 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 100 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="text4206"
+     style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#000000;font-family:Sinaloa CG;-inkscape-font-specification:Sinaloa CG;stroke-opacity:1">
+    <path
+       id="path4211"
+       style="stroke:#000000;stroke-opacity:1;fill:none"
+       d="m 83.227566,21.428326 -19.08,34.56 12.312,0 1.08,2.088 -14.472,0 -1.224,2.376 17.064,0 1.08,2.016 -19.152,0 -1.368,2.376 21.888,0 1.08,2.016 -23.976,0 -1.296,2.376 26.64,0 1.152,2.016 -28.8,0 -1.224,2.376 56.592004,0 -28.296004,-52.2" />
+  </g>
+  <path
+     d="M83.032828 96.073314L83.032828 98.305314L59.776828 84.049314L59.776828 86.641314L83.032828 100.89731L83.032828 103.12931L59.776828 88.87331L59.776828 91.53731L83.032828 105.79331L83.032828 108.02531L59.776828 93.769314L59.776828 96.361314L83.032828 110.61731L83.032828 112.84931L59.776828 98.593314L59.776828 101.25731L83.032828 115.51331L83.032828 117.74531L59.776828 103.48931L59.776828 129.69731L89.872828 129.69731L105.13682 117.38531L97.288825 105.07331L103.76882 94.489314L89.152828 81.457314L59.776828 81.457314L59.776828 81.817314L83.032828 96.073314"
+     style="font-size:72px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:none;stroke:#000000;stroke-opacity:1;font-family:Sinaloa CG;-inkscape-font-specification:Sinaloa CG"
+     id="path4218"
+     inkscape:connector-curvature="0" />
+</svg>

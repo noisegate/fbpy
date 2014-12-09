@@ -1,0 +1,7 @@
+#MANIFEST.in
+
+include *.txt
+include fblib.so
+recursive-include examples *
+recursive-include Doc *
+recursive-include fbpy *
