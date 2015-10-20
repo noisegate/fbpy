@@ -901,7 +901,7 @@ class Surface(object):
             x1 = np.array(x, dtype=np.int32)
             y1 = np.array(y, dtype=np.int32)
             z1 = np.array(z, dtype=np.int32)
-        return fblib.fbaddpoly(x1,y1,z1)
+        return fblib.fbaddpoly(x1,y1,z1,1)
         #self.polys.x.append(x1)
         #self.polys.y.append(y1)
         #self.polys.z.append(z1)

@@ -121,6 +121,15 @@ class Scope(object):
 
     @property
     def stepsize(self):
+        """
+            skip some points from audio data and connect with
+            straight lines. 
+            U dont want as many points in your poly as the 
+            pixelwidth of the scope. To much CPU load 4
+            nothin. Phaseplot wants more data, looks better...
+        
+        """
+        
         return self.stepsize_
         
     @stepsize.setter
@@ -155,6 +164,9 @@ class Scope(object):
     
     @property
     def w(self):
+        """
+            well, width of the scope in pixels
+        """
         return self.w_
         
     @w.setter
@@ -165,6 +177,9 @@ class Scope(object):
 
     @property
     def h(self):
+        """
+            well, height of the scope in pixels
+        """
         return self.h_
         
     @h.setter
@@ -175,6 +190,10 @@ class Scope(object):
                 
     @property
     def amplitude(self):
+        """
+            sets the relative amplitude of *both* channels L, R
+            0-1
+        """
         return self.amplitude_
         
     @amplitude.setter
@@ -187,6 +206,12 @@ class Scope(object):
         
     @property
     def offset(self):
+        """
+            sets the relative offset of *both* channels L, R
+            w.r.t. middle. One goes up, two goes down
+            
+            0-1
+        """
         return self.offset_
     
     @offset.setter

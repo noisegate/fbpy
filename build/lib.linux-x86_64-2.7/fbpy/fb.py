@@ -734,7 +734,7 @@ class Surface(object):
 
     def clearframebuffer(self):
         """
-            will creal the framebuffer
+            will clear the framebuffer
             but not the temp buffer.
             Use clearscreen for a clear screen,
             or clear to clear the temp buffer
@@ -901,7 +901,7 @@ class Surface(object):
             x1 = np.array(x, dtype=np.int32)
             y1 = np.array(y, dtype=np.int32)
             z1 = np.array(z, dtype=np.int32)
-        return fblib.fbaddpoly(x1,y1,z1)
+        return fblib.fbaddpoly(x1,y1,z1,1)
         #self.polys.x.append(x1)
         #self.polys.y.append(y1)
         #self.polys.z.append(z1)
@@ -1334,15 +1334,6 @@ class Surface(object):
 
         fblib.fbclose()
         return 0
-
-
-
-class Scope(Surface):
-
-    def __init__(self):
-        pass
-
-
 
 if __name__ == '__main__':
     pass
