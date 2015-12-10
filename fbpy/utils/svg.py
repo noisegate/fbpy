@@ -26,15 +26,15 @@ class Svg2Poly(object):
 
     def parse(self):
         for i, l in enumerate(self.path_strings):
-            print "Item {0}:".format(i)
+            print("Item {0}:".format(i))
             self.polys.append(Poly())
             currentpoly = self.polys[-1]
             crds = re.findall("([0-9]+(\.[0-9]+)?|\.[0-9]+),([0-9]+(\.[0-9]+)?|\.[0-9]+)", l)
             for j, m in enumerate(crds):
-                print "Coordinate {0}".format(j), 
-                currentpoly.x.append(float(m[0]))
-                currentpoly.y.append(float(m[2]))
-                currentpoly.z.append(float(self.layer))
+                print("Coordinate {0}".format(j), 
+                currentpoly.x.append(float(m[0])),
+                currentpoly.y.append(float(m[2])),
+                currentpoly.z.append(float(self.layer)))
 
     def report(self):
         s=""
@@ -52,6 +52,6 @@ class Svg2Poly(object):
 
 if __name__ == '__main__':
     converter = Svg2Poly("./test.svg",1)
-    print converter    
+    print(converter)
 
 

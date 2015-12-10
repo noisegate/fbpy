@@ -95,7 +95,7 @@ class Text(object):
     def printtext(self):
         cursor =0
         for i,kar in enumerate(self.text):
-            #print "loading {0}\n".format(kar)
+            #print("loading {0}\n".format(kar))
             cursor +=1
             if kar == " ":
                 pass
@@ -155,19 +155,19 @@ class Svg2Poly(object):
                 mvabsto = resM.group().split()
                 for j, el in enumerate(mvabsto[1::]):
                     m = el.split(',')
-                    #print m
+                    #print(m)
                     x_pen =float(m[0])/norm
                     y_pen =float(m[1])/norm
                     if j==0:
-                        #print "start"
+                        #print("start")
                         x_start = x_pen
                         y_start = y_pen
                     currentpoly.appendx(x_pen)
                     currentpoly.appendy(y_pen)
                     currentpoly.appendz(float(self.layer))
-                    #print x_pen, y_peni
+                    #print(x_pen, y_peni)
                 if re.search(r".* z", l):
-                    #print "close"
+                    #print("close")
                     currentpoly.appendx(x_start)
                     currentpoly.appendy(y_start)
                     currentpoly.appendz(float(self.layer)) 
@@ -180,7 +180,7 @@ class Svg2Poly(object):
                     x_pen += float(m[0])
                     y_pen += float(m[1])
                     if j==0:
-                        #print "start"
+                        #print("start")
                         x_start = x_pen
                         y_start = y_pen
 
@@ -189,13 +189,13 @@ class Svg2Poly(object):
                     currentpoly.appendz(float(self.layer))
         
                 if re.search(r".* z", l):
-                    #print "close"
+                    #print("close")
                     currentpoly.appendx(x_start)
                     currentpoly.appendy(y_start)
                     currentpoly.appendz(float(self.layer)) 
 
             if resl:
-                #print "found line"
+                #print("found line")
                 lnto = resl.group().split()
                 for j, el in enumerate(lnto[1::]):
                     m = el.split(',')
@@ -225,11 +225,11 @@ class Svg2Poly(object):
 
 if __name__ == '__main__':
     converter = Svg2Poly("../examples/test.svg",1)
-    print converter   
+    print(converter)
     """
     for i, poly in converter.get_poly():
-        print "Poly {0}\n".format(i)
-        print poly.x
-        print poly.y
+        print("Poly {0}\n".format(i))
+        print(poly.x)
+        print(poly.y)
 
     """

@@ -56,6 +56,6 @@ if __name__ == '__main__':
 
     instance = Ddd('../examples/sphere.obj',1)
     instance.open()
-    print instance.x
+    print(instance.x)
 
 

@@ -32,8 +32,8 @@ class Jackaudio(object):
     def jackon(self):
         r=fblib.fbjackon()
         if r==-1:
-            print "SORRY: only one instance allowed at the moment"
-            print "Hey, this is pre-alpha..."
+            print ("SORRY: only one instance allowed at the moment")
+            print ("Hey, this is pre-alpha...")
             return -1
 
     def jackoff(self):
