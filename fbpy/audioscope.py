@@ -42,7 +42,7 @@ class Threaded(threading.Thread):
     @classmethod
     def threads(cls):
         for i, t in enumerate(cls.activeThreads):
-            print i, t
+            print(i,t)
 
 class Scopemodes(object):
     
@@ -84,7 +84,9 @@ class Scope(object):
     """    
     __metaclass__ = Needmain  
     
-    def __init__(self,(x,y),(w,h)):
+    def __init__(self,x_y,w_h):
+        x,y = x_y
+        w,h = w_h
         self.surface = fb.Surface((x,y),(w,h))
         self.x_ = x
         self.y_ = y

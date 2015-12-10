@@ -504,7 +504,7 @@ class DDDObject(object):
 
         self.mynumber = self.polynr
         self.increment()
-        print self.mynumber
+        print(self.mynumber)
 
     #def settrafransform(self):
     #    self.surface.informdriver()
@@ -1214,7 +1214,7 @@ class Surface(object):
         #return Point(self, X1, color)
 
     def add(self, x):
-        if isinstance(x, Line): print "Adding line"
+        if isinstance(x, Line): print("Adding line")
         self.objects.append(x)      
 
     def blit(self, filename):

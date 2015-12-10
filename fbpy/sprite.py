@@ -55,8 +55,9 @@ class Sprite(object):
 
     __metaclass__ = Needmain
 
-    def __init__(self, (x,y),(w,h)):
-        
+    def __init__(self, x_y, w_h):
+        x,y = x_y
+        w,h = w_h
         self.surface = fb.Surface((x,y),(w,h))
         self.backgr = fb.Surface((x,y),(w,h))
         self.newstamp = None
