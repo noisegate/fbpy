@@ -19,6 +19,7 @@
 # *      
 # version: 0.1
 # profanities included 4 xtra power
+# cython: language_level=3
 
 cimport cython
 #from libc.stdlib cimport malloc, free
@@ -247,7 +248,8 @@ def fbgraticule(int x0, int y0, int w, int h):
     return graticule(x0, y0, w, h)
 
 def fbprint(int x0, int y0, pystring, int size_):
-    cdef char *string = pystring
+    py_byte_string = pystring.encode('UTF-8')
+    cdef char* string = py_byte_string
     return printxy(x0, y0, string, size_)
 
 def fbgetWidth():
@@ -331,9 +333,9 @@ def fbaddpoly(np.ndarray[DTYPE_t, ndim=1] x,
 def fbprintapoly():
     for i in range(morepolys[0].polyc):
         for j in range(morepolys[0].polyl[i]):
-            print "{0} {1} {2}".format(morepolys[0].x[i][j],
+            print ("{0} {1} {2}".format(morepolys[0].x[i][j],
                                        morepolys[0].y[i][j],
-                                       morepolys[0].z[i][j])
+                                       morepolys[0].z[i][j]))
 
 def fbdrawpolys(polynr):
     return drawpolys(&morepolys[polynr])
@@ -353,7 +355,7 @@ def fbstyledredraw():
 def fbinit():
     #inits the poly memalocator
     #and fixes the debug file
-    print "surpress debug info"
+    print("surpress debug info")
     #somehow this seems to be tricky...
     #debug = fopen("/dev/shm/log.log","w")
     #set dbgrdr = 0 and visits=0
@@ -364,16 +366,16 @@ def fbinit():
 def fbjackon():
     #this will become the audio interface
     #stuff...
-    print "starting up jack audio engine..."
+    print("starting up jack audio engine...")
     r=mainz()
     if r==-1:
-        print "only one instance etc..."
+        print("only one instance etc...")
         return -1
     return 0
     
 def fbjackoff():
     #stopping mainz
-    print "killing jack routine"
+    print("killing jack routine")
     kwit()
     return 0
 
@@ -387,5 +389,5 @@ def fbreadjack( np.ndarray[np.float64_t, ndim=1] audioL,
     
     #cdef np.ndarray[np.float64_t, ndim=1] audio = np.zeros(1024)
     readout(<double *>audioL.data, <double *>audioR.data)
-    #print audio
+    #print(audio)
     return 0
