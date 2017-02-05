@@ -20,7 +20,7 @@
 # profanities included 4 xtra power
 
 import fblib
-import svg
+#import svg
 import numpy as np
 from itertools import count
 import os.path
@@ -573,7 +573,7 @@ class DDDObject(object):
         self.order.append(6)
         self.tz = tz
 
-class Surface(object):
+class Surface(metaclass=Uniton):
     """
         This is the main class, it generates a drawing surface.
 
@@ -586,8 +586,6 @@ class Surface(object):
 
     """
 
-    __metaclass__ = Uniton
-
     #__doc__ = docme()
     instances = []
     scr_width = 0
@@ -595,7 +593,7 @@ class Surface(object):
 
     def __init__(self, *args):
         self.origo = (0,0)
-        self.size = None
+        self.size = (0,0)
         self.sprite = None
 
         self.pixelstyle = Pixelstyle()
