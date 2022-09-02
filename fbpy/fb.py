@@ -715,16 +715,15 @@ class Surface(object):
 
     def __repr__(self):
 
-        message = """
-                      framebuffer surface object:\n
-                      origin X:{0}\n
-                      origin Y:{1}\n
-                      width   :{2}\n
-                      height  :{3}\n
-                  """
-
-        return message.format(self.origo[0], self.origo[1], self.size[0], self.size[1])
-
+        message = """framebuffer surface object:
+    origin X:{0}
+    origin Y:{1}
+    width   :{2}
+    height  :{3}"""
+        try:
+            return message.format(self.origo[0], self.origo[1], self.size[0], self.size[1])
+        except TypeError:
+            return message.format(self.origo[0], self.origo[1], None, None)
     def clear(self):
         """
             will clear the temp buffer
